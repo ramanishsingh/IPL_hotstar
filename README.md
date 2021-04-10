@@ -7,7 +7,7 @@ You'd need to:
 
 i) Install conda
 
-ii) Create "hotstar" environment from the environment.yml file 
+ii) Create "hotstar" environment from the environment.yml file :conda env create -f environment.yml  . And then activate it: conda activate hotstar. 
 
 iii) Install Google chrome version 89 OR put the latest version of chromedriver (https://chromedriver.storage.googleapis.com/index.html?path=89.0.4389.23/) in the hotstar folder and also install latest chrome version
 
