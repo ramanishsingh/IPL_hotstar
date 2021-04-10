@@ -9,6 +9,8 @@ i) Install conda
 
 ii) Create "hotstar" environment from the environment.yml file :conda env create -f environment.yml  . And then activate it: conda activate hotstar. 
 
+If you are getting pip dependecies installation error, try "pip install fake-useragent" after activating the environment (conda activate hotstar).
+
 iii) Install Google chrome version 89 OR put the latest version of chromedriver (https://chromedriver.storage.googleapis.com/index.html?path=89.0.4389.23/) in the hotstar folder and also install latest chrome version
 
 iv) Change line 31 in check6.py to put the right location of the chromedriver
